@@ -71,7 +71,6 @@ body {
   font-family: "Inter", sans-serif;
   margin: 0;
   padding: 0;
-  min-width: 1440px;
 }
 
 a {
@@ -141,7 +140,7 @@ a {
 .hero-section .div {
   padding-inline: 6%;
   width: 50%;
-  height: 811px;
+  height: 50.6875rem;
 }
 
 .hero-section .div-white {
@@ -201,7 +200,7 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  height: 970px;
+  height: 60.625rem;
   padding-inline: 6%;
   padding-block: 13% 4%;
 }
@@ -214,11 +213,13 @@ a {
 
 .question .container-img .img-bg {
   width: 34.5rem;
-  height: 635px;
+  height: 39.6875rem;
   background-color: #02250a;
 }
 
 .question .container-img .video {
+  width: 34.5rem;
+  height: 39.6875rem;
   position: absolute;
   top: 1%;
   left: 0;
@@ -239,7 +240,7 @@ a {
 
 .reports {
   padding-inline: 6%;
-  height: 809px;
+  height: 50.5625rem;
   background-color: #02250a;
 }
 
@@ -267,16 +268,16 @@ a {
 }
 
 .reports .cards-div .card-wrap {
-  width: 300px;
-  height: 424px;
+  width: 18.75rem;
+  height: 26.5rem;
   background-color: #ffffff;
   padding: 0.8%;
   border-radius: 8px;
 }
 
 .reports .cards-div .card-wrap img {
-  width: 276px;
-  height: 207px;
+  width: 17.25rem;
+  height: 12.9375rem;
 }
 
 .reports .cards-div .card-wrap .card-heading {
@@ -313,7 +314,7 @@ a {
 
 .gallery-section {
   padding-inline: 6%;
-  height: 830px;
+  height: 51.875rem;
 }
 
 .gallery-section h2 {
@@ -332,12 +333,12 @@ a {
   margin: 0;
   padding: 0;
   width: 19.8125rem;
-  height: 257px;
+  height: 16.0625rem;
 }
 
 footer {
   background-color: #02250a;
-  height: 92px;
+  height: 5.75rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

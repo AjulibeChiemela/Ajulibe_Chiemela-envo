@@ -15,7 +15,7 @@ body {
   font-family: "Inter", sans-serif;
   margin: 0;
   padding: 0;
-  min-width: 1440px;
+  // min-width: 1440px;
 }
 
 a {
@@ -62,7 +62,7 @@ a {
   .div {
     @include padding;
     width: 50%;
-    height: 811px;
+    height: 50.6875rem;
     &-white {
       padding-top: 4%;
       display: flex;
@@ -103,7 +103,7 @@ a {
 .question {
   display: flex;
   justify-content: space-between;
-  height: 970px;
+  height: 60.625rem;
   @include padding;
   padding-block: 13% 4%;
   .container-img {
@@ -112,10 +112,12 @@ a {
     padding-left: 2.5%;
     .img-bg {
       width: 34.5rem;
-      height: 635px;
+      height: 39.6875rem;
       background-color: $primaryColor;
     }
     .video {
+      width: 34.5rem;
+      height: 39.6875rem;
       position: absolute;
       top: 1%;
       left: 0;
@@ -136,7 +138,7 @@ a {
 // reports section
 .reports {
   @include padding;
-  height: 809px;
+  height: 50.5625rem;
   background-color: $primaryColor;
   h2 {
     color: $white;
@@ -154,14 +156,14 @@ a {
     height: auto;
     padding-block: 4%;
     .card-wrap {
-      width: 300px;
-      height: 424px;
+      width: 18.75rem;
+      height: 26.5rem;
       background-color: $white;
       padding: 0.8%;
       border-radius: 8px;
       img {
-        width: 276px;
-        height: 207px;
+        width: 17.25rem;
+        height: 12.9375rem;
       }
       .card-heading {
         display: flex;
@@ -189,7 +191,7 @@ a {
 
 .gallery-section {
   @include padding;
-  height: 830px;
+  height: 51.875rem;
   h2 {
     margin-top: 0;
     padding-block: 3.5% 0.5%;
@@ -201,14 +203,14 @@ a {
       margin: 0;
       padding: 0;
       width: 19.8125rem;
-      height: 257px;
+      height: 16.0625rem;
     }
   }
 }
 
 footer {
   background-color: $primaryColor;
-  height: 92px;
+  height: 5.75rem;
   display: flex;
   justify-content: center;
   align-items: center;
