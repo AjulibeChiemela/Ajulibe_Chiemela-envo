@@ -8,4 +8,4 @@ This is a class project for the Rivers State ICT Department(Techcreek).
 
 ## Hosted Site
 
-[Link to hosted site](https://shimmering-tarsier-93aa71.netlify.app/)
+[Link to hosted site](https://bespoke-babka-1b0e77.netlify.app)
