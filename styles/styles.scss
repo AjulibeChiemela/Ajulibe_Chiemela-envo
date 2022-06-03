@@ -1,0 +1,218 @@
+@import "./variables";
+@import "./helpers";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap");
+
+@mixin padding {
+  padding-inline: 6%;
+}
+
+// Global styles
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  // min-width:1440px;
+}
+
+a {
+  text-decoration: none;
+}
+
+// hero section
+.hero-section {
+  display: flex;
+  position: relative;
+  header {
+    @include padding;
+    position: absolute;
+    top: 3%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    .logo {
+      width: 20%;
+    }
+    nav {
+      display: flex;
+      justify-content: space-between;
+      width: 40%;
+      ul {
+        list-style-type: none;
+        width: 100%;
+        li {
+          display: inline-block;
+          a {
+            color: white;
+          }
+        }
+      }
+      .ul-2 {
+        display: flex;
+        justify-content: flex-end;
+        .list-2 {
+          margin-right: 20%;
+        }
+      }
+    }
+  }
+  .div {
+    @include padding;
+    width: 50%;
+    height: 811px;
+    &-white {
+      padding-top: 4%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      background-color: $white;
+      span {
+        color: $primaryColor;
+      }
+      .arrow-pointer {
+        position: relative;
+        bottom: 25%;
+        left: 50%;
+      }
+    }
+    &-green {
+      background-color: $primaryColor;
+      div {
+        position: relative;
+        img {
+          position: absolute;
+        }
+        .img-1 {
+          right: 270px;
+          top: 230px;
+        }
+        .img-2 {
+          left: 160px;
+          top: 400px;
+        }
+      }
+    }
+  }
+}
+
+// question section
+.question {
+  display: flex;
+  justify-content: space-between;
+  height: 970px;
+  @include padding;
+  padding-block: 13% 4%;
+  .container-img {
+    position: relative;
+    padding-top: 3%;
+    padding-left: 2.5%;
+    .img-bg {
+      width: 34.5rem;
+      height: 635px;
+      background-color: $primaryColor;
+    }
+    .video {
+      position: absolute;
+      top: 1%;
+      left: 0;
+    }
+  }
+  .container {
+    width: 45%;
+    h2 {
+      margin-top: 12%;
+    }
+    p {
+      margin-block: 3.1rem;
+      padding-right: 18%;
+    }
+  }
+}
+
+// reports section
+.reports {
+  @include padding;
+  height: 809px;
+  background-color: $primaryColor;
+  h2 {
+    color: $white;
+    margin: 0;
+    padding-top: 4%;
+  }
+  hr {
+    width: 8%;
+    border: 5px solid $white;
+    margin-left: 0;
+  }
+  .cards-div {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    padding-block: 4%;
+    .card-wrap {
+      width: 300px;
+      height: 424px;
+      background-color: $white;
+      padding: 0.8%;
+      border-radius: 8px;
+      img {
+        width: 276px;
+        height: 207px;
+      }
+      .card-heading {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        p {
+          margin-block: 1% 1.7%;
+        }
+        .size-18 {
+          color: $primaryColor;
+        }
+        .size-14 {
+          color: $grey;
+        }
+      }
+      .size-15 {
+        color: $primaryColor;
+      }
+    }
+  }
+  .btn-white {
+    margin-left: 42%;
+  }
+}
+
+.gallery-section {
+  @include padding;
+  height: 830px;
+  h2 {
+    margin-top: 0;
+    padding-block: 3.5% 0.5%;
+    width: 45%;
+  }
+  .img-gallery {
+    display: flex;
+    img {
+      margin: 0;
+      padding: 0;
+      width: 19.8125rem;
+      height: 257px;
+    }
+  }
+}
+
+footer {
+  background-color: $primaryColor;
+  height: 92px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  p {
+    color: $white;
+  }
+}

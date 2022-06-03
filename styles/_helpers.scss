@@ -1,3 +1,11 @@
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
 .fw-700 {
   font-weight: 700;
 }
@@ -6,28 +14,45 @@
   font-weight: 900;
 }
 
-.text-center {
-  text-align: center;
+.heading {
+  font-size: 3rem;
+  line-height: 58.09px;
 }
 
-.container {
-  width: 100%;
-  padding-inline: 1rem;
-  max-width: 1200px;
-  margin: 0 auto;
+.size-14 {
+  font-size: 0.875rem;
+  line-height: 16.94px;
+}
+
+.size-15 {
+  font-size: 0.9375rem;
+  line-height: 18.15px;
+}
+
+.size-16 {
+  font-size: 1rem;
+  line-height: 19.36px;
+}
+
+.size-18 {
+  font-size: 1.125rem;
+  line-height: 21.78px;
 }
 
 .btn {
   all: unset;
   padding: 1.5rem 4.375rem;
   border-radius: 5px;
-
-  &.primary {
-    background-color: $primary;
-    color: white;
+  &-primary {
+    background-color: $primaryColor;
+    a {
+      color: $white;
+    }
   }
-
-  &.white {
-    background-color: white;
+  &-white {
+    background-color: $white;
+    a {
+      color: $black;
+    }
   }
 }
